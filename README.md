@@ -5,6 +5,8 @@
 ```bash
 git remote add upstream https://github.com/RelicCOH/CommanderRevamp.git
 ```
+You can check if it worked/already exists by running `git remote -v`.
+
 2. Fetch from the upstream
 ```bash
 git fetch upstream
