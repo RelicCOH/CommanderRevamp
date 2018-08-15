@@ -7,11 +7,11 @@ git remote add https://github.com/RelicCOH/CommanderRevamp.git
 ```
 2. Fetch from the upstream
 ```bash
-git checkout master
+git fetch upstream
 ```
 3. Checkout to your fork's master branch (if not already active, skip to 4 otherwise)
 ```bash
-git fetch upstream
+git checkout master
 ```
 4. Merge upstream to your fork's master branch
 ```bash
