@@ -3,8 +3,10 @@
 ### Updating your fork with the upstream (Relic's Repository)
 1. Add (if you already haven't, skip to 2 otherwise) Relic's repository as a remote called "upstream"
 ```bash
-git remote add https://github.com/RelicCOH/CommanderRevamp.git
+git remote add upstream https://github.com/RelicCOH/CommanderRevamp.git
 ```
+You can check if it worked/already exists by running `git remote -v`.
+
 2. Fetch from the upstream
 ```bash
 git fetch upstream
